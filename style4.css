@@ -19,7 +19,7 @@ body {
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
     line-height: 1.2;
-    background-image: url(../images/geometry.png);
+    background-image: url(geometry.png);
     margin: 0px;
   }
   
@@ -27,7 +27,7 @@ body {
     padding-top: 5px;
     padding-bottom: 10px;
     text-align: center;
-    background-image: url(../images/meadow-5648849_1920.jpg);
+    background-image: url(.../images/meadow-5648849_1920.jpg);
     background-size: cover;
     background-position: bottom;
     opacity: 2;
