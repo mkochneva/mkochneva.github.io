@@ -188,7 +188,7 @@ body {
   
   #pres {
     margin: 0px 150px;
-    background-color: #f28972;
+    background-color: rgba(255, 0, 0, 0.5);
     padding: 10px 50px;
     text-indent:                                                                                            /*!comment faire retrait de 1 phrase!!!!*/
   }
