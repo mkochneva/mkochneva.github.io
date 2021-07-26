@@ -423,5 +423,9 @@ body {
     font-size: 15px;
     /*line-height: 20px;*/
     text-align: center;
-  
+ 
   }
+
+footer {
+    display: block;
+}
