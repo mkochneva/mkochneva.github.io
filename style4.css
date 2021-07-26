@@ -318,44 +318,93 @@ body {
     color: #122617;
   }
   
+ #form {
+    margin-bottom: 20px;
+    margin-left: 500px;
+    font-weight: bold;
+
+  }
 
 
-<section id="form">
-<form>
-    <h1>Contactez-moi</h1>
-    <div class="separation"></div>
-    <div class="corps-formulaire">
-        <div class="gauche">
-            <div class="groupe">
-                <label>Votre prénom</label>
-                <input type="text">
-                <i class="fas fa-user"></i>
-            </div>
-            <div class="groupe">
-                <label>Votre adresse email</label>
-                <input type="text">
-                <i class="fas fa-at"></i>
-            </div>
-            <div class="groupe">
-                <label>Votre télépnone</label>
-                <input type="text">
-                <i class="fas fa-mobile-alt"></i>
-            </div>
-        </div>    
-        <div class="droite">
-            <div class="groupe">
-                <label>Message</label>
-                <textarea placeholder="Saisissez ici..."></textarea>
-            </div>
-        </div>
-    </div>
 
-    <div class="pied-formulaire">
-        <button>Envoyer le message</button>
-    </div>
-</form>
-</section>
+  #form h1{
+    font-size: 20px;
+    margin-left: 170px;
+  }
+
+  #form .separation{
+    width: 50%;
+    height: 1px;
+    background-color: #122617;
+  }
+
+  #form .corps-formulaire{
+   display: flex;
+   flex-wrap: wrap;
+   margin-bottom: 20px;
+   margin-top: 10px;
+  }
+
+  #form .corps-formulaire .groupe{
+    position: relative;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #form .corps-formulaire .gauche .groupe input{
+    margin-top: 5px;
+    padding: 10px 5px 10px 30px;
+    border: 1px solid;
+    outline-color: #122617;
+  }
+
+  #form .corps-formulaire .gauche .groupe i{
+    position: absolute;
+    left: 0;
+    top: 25px;
+    padding: 9px 8px;
+    color: #122617;
+  }
+
+  #form .corps-formulaire .droite{
+    margin-left: 50px;
+  }
+
+  #form .corps-formulaire .droite .groupe{
+    height: 100%;
+    width: 100%;
+  }
+
+  #form .corps-formulaire .droite .groupe textarea{
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #122617;
+    resize: none;
+    height: 72%;
+  }
+
+  #form .pied-formulaire button{
+    margin-top: 10px;
+    background-color: #f28972;
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.5s;
+    margin-left: 160px;
+
+  }
+
+  #form .pied-formulaire button:hover{
+    transform: scale(1.05);
+  }
+
   
+
   
   
   /*footer.......................................*/
