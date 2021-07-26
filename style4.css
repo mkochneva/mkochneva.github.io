@@ -410,7 +410,7 @@ body {
   /*footer.......................................*/
   footer {
     text-align: center;
-    background-color: #2d593c;
+    background-color: rgba(0,153,153, 0.25);
     padding: 15px;
     margin-bottom: 0;
     /*margin-left: 450px;
@@ -419,7 +419,7 @@ body {
   
   
   #content {
-    color: #f28972;
+    color: black;
     font-size: 15px;
     /*line-height: 20px;*/
     text-align: center;
